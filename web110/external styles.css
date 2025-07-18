@@ -46,3 +46,12 @@ video, iframe {
   height: auto;
 }
 
+ul {
+    display: inline-block; /* shrink width to content */
+    text-align: left;      /* keep bullets and text aligned inside */
+    padding-left: 40px;    /* default indent for bullets */
+  }
+  .container {
+    text-align: center;    /* center the whole ul block */
+  }
+
